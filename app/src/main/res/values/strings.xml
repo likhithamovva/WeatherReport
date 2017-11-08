@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather Report</string>
+    <string name="enable_location_service">To continue, let your device turn on location, which uses Google\'s location service</string>
+    <string name="please_wait">Please wait</string>
+    <string name="something_went_wrong">Something went wrong. Please try again! </string>
+    <string name="invalid_zip_code">Invalid Zip Code.\nPlease check other location</string>
+    <string name="invalid_city">City entered is not available in \'National Weather Service Forecast\' list.\nPlease enter other location.</string>
+    <string name="forecast">Forecast</string>
+</resources>

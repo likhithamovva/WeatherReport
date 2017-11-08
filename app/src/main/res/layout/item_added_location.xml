@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_locationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:paddingStart="3dp"
+        android:paddingTop="8dp"
+        android:text="Location Name"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text_maxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_locationName"
+        android:layout_marginTop="5dp"
+        android:paddingStart="3dp"
+        android:text="50"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_minTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_locationName"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/text_maxTemp"
+        android:paddingStart="20dp"
+        android:text="20"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/text_minTemp"
+        android:layout_marginTop="5dp"
+        android:background="#000000" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingEnd="5dp"
+    android:paddingStart="5dp"
+    android:paddingTop="10dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/text_dayName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.45"
+        android:textColor="@color/colorWhiteTransparent"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/image_weatherCondition"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="0.25"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/text_maxTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.15"
+        android:gravity="end"
+        android:textColor="@color/colorWhiteTransparent"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/text_minTemp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.15"
+        android:gravity="end"
+        android:textColor="@color/colorWhiteTransparent"
+        android:textSize="17sp" />
+
+</LinearLayout>
